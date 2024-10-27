@@ -1,0 +1,52 @@
+.death{
+    width: 100%;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.493);
+    height: 335px;
+}
+.frost{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+}
+.dokmeh{
+    color: white;
+    background-color: rgba(0, 68, 255, 0.856);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    display: grid;
+    margin-top: 25px;
+    
+}
+.logo{
+    width: 35px;
+    border-radius: 18px;
+    display: grid;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+.nev{
+    margin-left: 10px;
+}
+.divlog{
+    display: grid;
+    width: 250px;
+    height: 0;
+}
+.king{
+    margin-left: 45px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+}
+.wow{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.luck{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+}

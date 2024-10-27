@@ -1,0 +1,111 @@
+.logo{
+    width: 35px;
+    border-radius: 20px;
+}
+.logowow{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+}
+.nevwow{
+    margin-left: 50px;   
+    margin-top: 5px;
+    width: 150px;
+}
+.img{
+    width: 100%;
+}
+.war{
+    font-size: 13px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+.wow{
+    font-size: 13px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+.veiws{
+    font-size: small;
+    margin-top: 2px;
+}
+.nevwow1{
+    margin-left: 50px;   
+    margin-top: 5px;
+    width: 150px;
+}
+.op{
+    display: grid;
+    grid-template-columns: 1px 1px; 
+}
+.oq{
+    display: grid;
+    grid-template-columns: 1px 1px;  
+}
+.ob{
+    display: grid;
+    grid-template-columns: 1px 1px;  
+}
+.img1{
+    width: 100%;
+}
+.logowow1{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    
+}
+.logo1{
+    width: 35px;
+    border-radius: 20px;
+}
+.war1{
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.wow1{
+    font-size: 13px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+.veiws1{ 
+    font-size: small;
+    margin-top: 2px;
+}
+.img2{
+    width: 100%;
+}
+.logowow2{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+}
+.logo2{
+    width: 35px;
+    border-radius: 20px; 
+}
+.nevwow2{
+    margin-left: 50px;   
+    margin-top: 5px;
+    width: 150px;
+}
+.war2{
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.wow2{
+    font-size: 13px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+.veiws2{
+    font-size: small;
+    margin-top: 2px;
+}
+.pure{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 20px;
+    width: 100%;
+    row-gap: 20px;
+}

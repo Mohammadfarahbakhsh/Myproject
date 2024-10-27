@@ -1,0 +1,127 @@
+.mainbar{
+  display: flex; 
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 5px;
+  right: 5px;;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+  border-left-color: white;
+  border-right-color: white;
+  border-width: 1px;
+  height: 45px;
+  z-index: 1000;
+}
+.savage{
+  width: 200px;
+  display: flex;
+}
+.youtubelogo{
+  width: 500px !important;
+  margin-left: 10px;
+}
+.hamberger{
+  width: 400px !important;
+  height: 30px !important;
+  margin-top: 8px;
+}
+.div-search{
+  display: flex;
+  align-items: center;
+  width: 450px;
+}
+.benvis{
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-style: solid;
+  box-shadow:inset 1px 2px 3px rgba(0, 0, 0, 0.11);
+  border-width: 1px;
+  border-color: rgb(189, 189, 189);
+  border-radius: 1px;
+  flex: 1;
+  width: 0;
+}
+.Search{
+  height: 31px;
+  width: 45px;
+  background-color: rgb(189, 189, 189);
+  border-style: solid;
+  border: none;
+  border-width: 1px;
+  margin: -2px;
+  margin-left: -15px;
+  border-radius: 1px;
+}
+.tooltip{
+  position: absolute;
+  bottom: -27px;
+  background-color: rgb(189, 189, 189);
+  padding: 2px 3px;
+  border-radius: 2px;
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  white-space:nowrap;
+}
+.Search:hover .tooltip ,.mic:hover .tooltip ,.tooldorbin:hover .tooltip ,.tool-bell:hover .tooltip{
+  opacity: 1;
+}
+.Search::placeholder{
+  color: rgb(171, 171, 171);
+}
+.doorbin,.bell{
+  width: 35px !important;
+  height: 30px !important;
+}
+.profile{
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.div-left{
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  flex-shrink: 0;
+  align-items: center;
+}
+.ring-bell{
+  background-color: red;
+  color: white;
+  position: absolute;
+  padding: 1px 2px;
+  top: 0;
+  right: 0;
+  border-radius: 20px;
+  width: 12px;
+  height: 15px;
+  text-align: center;
+  font-size: small;
+}
+.ring-div{
+  position: relative;
+}
+.mic{
+  margin-left: 15px;
+  height: 30px;
+  width: 30px;
+  border-radius: 25px;
+  border-style: solid;
+  border: none;
+  background-color: rgb(189, 189, 189);
+}
+.mic,.Search ,.tooldorbin,.tool-bell{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

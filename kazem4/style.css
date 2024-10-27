@@ -1,0 +1,50 @@
+.main{
+    font-family:"Noto Nastaliq Urdu" ;
+    direction: rtl;
+    font-size: 18px;
+    font-weight: bold;
+    width: 220px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.alt{
+    font-family:taoma ;
+    color: rgb(97, 96, 96);
+    font-size: 14px;
+    margin-top: 5px;
+}
+.kazemstyle{
+    font-family:tahoma ;
+    font-size: 14px;
+    color:rgb(97, 96, 96) ;
+    margin-top: 17px;
+}
+.osool{
+    font-family: tahoma;
+    color:rgb(97, 96, 96) ;
+    direction: rtl;
+    width: 280px;
+    line-height: 23px;
+    text-align: left;
+    margin-bottom: 85px;
+}
+.shop{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    padding:25px;
+    font-size: 20px;
+    text-align: center;
+}
+.shop-span{
+    padding-left: 12px;
+    text-decoration: underline; 
+    text-decoration-color:rgb(200, 0, 0);
+    transition: text-decoration-color 0.2s;
+}
+.shop-span:hover{
+   text-decoration-color: white !important; 
+}
+.shop-span{
+    padding-left: 12px;
+}

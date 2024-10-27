@@ -1,0 +1,66 @@
+.main{
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.3 );
+    width: 550px;
+}
+.wow{
+    display: flex;
+}
+.tasvir{
+    width:40px;
+    border-radius: 55px;
+    height: 40px;
+    object-fit: cover;
+    display: flex;
+    margin-top: 15px;
+}
+.yad1{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-size: 17px;
+}
+.yad2{
+    color: gray;
+    font-size: 12px;
+    margin-top:5px;
+    margin-bottom: 7px;
+}
+.yad3{
+    color: gray;
+    font-size: 12px;
+    margin-top:3px;
+}
+.dokmeh{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 2px;
+    border-radius: 4px;
+    width: 55px;
+    cursor: pointer;   
+    transition: box-shadow 0.2s; 
+}
+.dokmeh:hover{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.dokmeh:active{
+    opacity: 0.8;
+}
+.tasvir1{
+    height: 78.2px;
+    width: 40px;
+}
+.asli{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.son{
+    display: flex;
+}
+.doughter{
+    height:20px ;
+    margin-top: 30px;
+    margin-left: 300px;
+}

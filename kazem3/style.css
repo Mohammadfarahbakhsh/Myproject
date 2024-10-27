@@ -1,0 +1,62 @@
+.SUB{
+    background-color: rgb(172, 16, 16);
+    color: white;
+    border: none;
+    width: 100PX;
+    height: 30PX;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 4px;
+    transition: opacity 0.2s;
+    
+
+}
+.SUB:hover{
+    opacity: 0.9;
+}
+.SUB:active{
+    opacity: 0.9;
+    
+}
+.JO{
+    background-color: white;
+    color: rgb(13, 109, 199);
+    border-style: solid;
+    border-color: rgb(13, 109, 199);
+    width:65px ;
+    height: 30px;
+    border-width: 1.2px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 4PX;
+    transition: background-color 0.2s, color 0.2s;
+    
+}
+.JO:hover{
+    background-color: rgb(18, 177, 250);
+    color: white;
+}
+.JO:active{
+    opacity: 0.8;
+}
+.TW{
+    background-color: rgb(16, 145, 250);
+    color: white;
+    border: none;
+    border-radius: 16PX;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: box-shadow 0.2s, opacity 0.2s;
+    font-size: 15px;
+   vertical-align: top;
+}
+.TW:hover{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.TW:active{
+    opacity: 0.8;
+}

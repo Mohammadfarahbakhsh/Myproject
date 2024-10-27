@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(120, 77, 221)
+    
+}
+.alt{
+    color: white;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.alt2{
+    color: white;
+    background-color: rgb(120, 77, 221);
+    border-radius: 3px;
+    border-style: solid;
+    border-color: white;
+    margin: 10px;
+    padding: 13px;
+    height: 35px;
+    font-weight: bold;
+    line-height: 5px;
+}
+.alt3{
+    border-radius: 20px;
+    border-style: solid;
+    border: none;
+    margin: 10px;
+    width: 500px;
+    height: 30px;
+    padding-left: 20px;
+    font-size: medium;
+}

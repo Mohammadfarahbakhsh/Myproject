@@ -1,0 +1,26 @@
+.altbar{
+    position: fixed;
+    background-color: white;
+    top: 40px;
+    left: 0;
+    bottom: 0;
+    width: 95px;
+    z-index:1000;
+}
+.logo-left{
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-left img{
+    height: 25px;
+}
+.logo-left div{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.logo-left:hover{
+    background-color: rgb(233, 232, 232);
+}
