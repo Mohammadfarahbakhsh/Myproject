@@ -1,0 +1,37 @@
+.king{
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 55px;
+    
+}
+.king2{
+    width: 300px;
+    height: 300px;
+    margin-left: 120px;
+    object-fit: cover;
+    object-position:right ;
+    margin-right: 120px;
+}
+.king3{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 180px;
+}
+.neveshtar{
+   margin-left: 30px;
+   font-size:20px;
+   border-radius: 5px;
+   border-style: solid;
+   border-width: 1px;
+   padding: 10px;
+}
+.neveshtar2{
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.562);
+}
